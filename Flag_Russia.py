@@ -8,6 +8,7 @@ def draw_flagpole():
 def draw_red_flag():
     color = pygame.Color("firebrick1")
     pygame.draw.rect(screen, color, (26, 20, 130, 35*3), 0)
+    print("I was painted over")
 
 def draw_white_stripe():
     color = pygame.Color("cornsilk")
